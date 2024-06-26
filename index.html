@@ -1,42 +1,59 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, height=device-height, user-scalable=no, initial-scale=1.0"/>
-        <title>SanidhyaPN</title>
-        <meta name="description" content="Personal landing page of Sanidhya PN"/>
-        <link rel="canonical" href="https://sanidhyapn.github.io"/>
-        <link rel="stylesheet" type="text/css" href="./style.css" />
-        <!-- Google tag (gtag.js) -->
-            <script async src="https://www.googletagmanager.com/gtag/js?id=G-DLHTFSLE52"></script>
-            <script>
-                window.dataLayer = window.dataLayer || [];
-                function gtag(){dataLayer.push(arguments);}
-                gtag('js', new Date());
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SanidhyaPN</title>
+    <meta name="description" content="Personal landing page of Sanidhya PN">
+    <link rel="canonical" href="https://sanidhyapn.github.io">
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <style>
+        header {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            margin-bottom: 20px;
+        }
 
-                gtag('config', 'G-DLHTFSLE52');
-            </script>
-    </head>
+        header small {
+            margin-top: 5px;
+        }
 
-    <body>
-        <header>
-            <h2>Sanidhya PN</h2>
-            <small>Exploring-Creating-Debugging-Enhancing Code and myself, step by step.</small>
-        </header>
+        footer {
+            text-align: center;
+            margin-top: 20px;
+        }
 
-        <body>
-            <small>
-                <a href="https://sanidhyapn.github.io/Resume.html">Resume.html</a> <br>
-                <a href="https://www.linkedin.com/in/sanidhya-pn-25b030221/" target="_blank">LinkedIn</a> <br>
-    
+        footer small {
+            display: block;
+        }
 
-            </small>
-        </body>
+        .linkedin-link:before {
+            content: "";
+            display: inline-block;
+            width: 20px; /* Adjust as necessary */
+            height: 20px; /* Adjust as necessary */
+            background-image: url('logo.jpg'); /* Replace with the path to your LinkedIn logo */
+            background-size: cover;
+            margin-right: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h2>Sanidhya PN</h2>
+        <small>Exploring - Creating - Debugging - Enhancing Code and myself, step by step.</small>
+    </header>
 
-        <footer>
-            <hr>
-            <small>minimalist page by <a href="https://sanidhyapn.github.io">SanidhyaPN</a></small>
-        </footer>
-    </body>
+    <small>
+        <a href="https://sanidhyapn.github.io/Resume.html">Resume.html</a> <br>
+        <a href="https://www.linkedin.com/in/sanidhya-pn-25b030221/" class="linkedin-link" target="_blank">LinkedIn</a> <br>
+    </small>
+
+    <footer>
+        <hr>
+        <small>minimalist page by <a href="https://sanidhyapn.github.io">SanidhyaPN</a></small>
+    </footer>
+</body>
 </html>
-<!-- Thanks https://evenbettermotherfucking.website/ -->
