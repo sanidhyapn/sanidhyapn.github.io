@@ -1,5 +1,3 @@
-
-
 <!doctype html>
 <html>
     <head>
@@ -9,14 +7,40 @@
         <meta name="description" content="Resume page of Sanidhya PN"/>
         <link rel="canonical" href="https://sanidhyapn.github.io/career-profile.html"/>
         <link rel="stylesheet" type="text/css" href="./style.css" />
+        <style>
+            header {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+
+            .header-left {
+                display: flex;
+                flex-direction: column;
+            }
+
+            .profile-photo {
+                width: 50px;
+                height: 50px;
+                border-radius: 50%;
+                object-fit: cover;
+                margin-left: 10px;
+            }
+        </style>
     </head>
 
     <body>
-        <h2>Sanidhya PN</h2>
-        <small>software engineering student  
-            | <a href="https://sanidhyapn.github.io/">sanidhyapn.github.io</a> 
-            | <a href="https://www.linkedin.com/in/sanidhya-pn-25b030221/">linkedin.com/in/sanidhya-p-n</a>
-        </small>
+        <header>
+            <div class="header-left">
+                <h2>Sanidhya PN</h2>
+                <small>Information Engineering Student</small>
+                <small>software engineering student  
+                    | <a href="https://sanidhyapn.github.io/">sanidhyapn.github.io</a> 
+                    | <a href="https://www.linkedin.com/in/sanidhya-pn-25b030221/">linkedin.com/in/sanidhya-p-n</a>
+                </small>
+            </div>
+            <img src="path/to/your/photo.jpg" alt="Sanidhya PN's photo" class="profile-photo">
+        </header>
 
         <p><b>Career</b>
             <small>
@@ -46,7 +70,6 @@
             </small>
         </p>
 
-
         <p><b>Extras</b><br>
             <small>
                 <li>
@@ -59,5 +82,3 @@
         <small>minimalist page by <a href="https://sanidhyapn.github.io/">SanidhyaPN</a></small>
     </footer>
 </html>
-
-
